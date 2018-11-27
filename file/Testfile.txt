@@ -1,0 +1,4 @@
+Hello Python by Deepak
+This is our new text file
+and this is another line.
+Why? Because we can write again.

@@ -1,0 +1,11 @@
+import MySQLdb
+db = MySQLdb.connect("192.168.106.69","root","root","deepak_dummy" )
+cursor = db.cursor()
+cursor.execute("SELECT * FROM WINE")
+
+# Fetch a single row using fetchone() method.
+data = cursor.fetchone()
+print ("Wine Table Entry: %s " %data)
+
+# disconnect from server
+db.close()

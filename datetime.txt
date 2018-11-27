@@ -1,0 +1,12 @@
+import datetime
+x = datetime.datetime.now()
+
+print(x.year)  #2018
+print(x.strftime("%A"))  #Monday
+
+today = datetime.date.today()
+print (today.strftime('We are the %d %b %B %Y'))
+
+#2018
+#Monday
+#We are the 26 Nov November 2018
